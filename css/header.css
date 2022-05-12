@@ -13,13 +13,13 @@ header nav{
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     background-color: #4caf50;
-    padding-left: 15%;
+    padding-left: 16.1%;
     padding-right: 20%;
 }
 
-
 header nav ul{
     display: flex;
+    margin-right: 2.5%;
 }
 
 header #logo{
@@ -33,13 +33,9 @@ header a:hover, #logo:hover{
     text-shadow: none;
 }
 
-header #lupa{
-    font-size: 17px;
-}
-
 header nav ul li{
     display: inline-block;
-    padding-left: 8%;
+    padding-left: 7%;
     font-size: 110%;
 }
 

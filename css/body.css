@@ -5,10 +5,6 @@ main #bem-vindo{
     background-image: linear-gradient(DarkGreen,forestGreen);
 }
 
-main #bem-vindo::-ms-fill{
-    background-color: antiquewhite;
-}
-
 main #bem-vindo div{
     color: white;
     padding-top: 40px;
@@ -16,14 +12,14 @@ main #bem-vindo div{
 }
 
 main #bem-vindo span{
-    margin-left: 11%;
+    margin-left: 16%;
     height: 100%;
     width: 100%;
     font-size: 300%;
 }
 
 main #bem-vindo p{
-    margin-left: 11%;
+    margin-left: 16%;
     height: 100%;
     font-size: 140%;
 }
@@ -162,7 +158,6 @@ main #sobre #interesses-formacao #formacao{
     width: 50%;
 }
 
-
 main #sobre #interesses-formacao #formacao .instituicao{
     font-size: 75%;
     padding-left: 9.8%;
@@ -217,7 +212,7 @@ main #contato #ctt-nome{
 
 main #contato #ctt-nome span{
     display: flex;
-    margin-left: 19%;
+    margin-left: 32%;
     font-size: 290%;
     color: white;
 }
