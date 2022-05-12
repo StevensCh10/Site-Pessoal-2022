@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    background-color: #272935;
+    height: 120px;
+    width: 100%;
+}
+
+footer p{
+    margin: auto;
+    padding: auto;
+    color: white;
+}
+
+footer p a{
+    color: #37863a;
+    font-size: 110%;
+}

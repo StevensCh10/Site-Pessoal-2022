@@ -1,0 +1,303 @@
+main #bem-vindo{
+    padding-top: 4.85%;
+    height: 220px;
+    width: 100%;
+    background-image: linear-gradient(DarkGreen,forestGreen);
+}
+
+main #bem-vindo::-ms-fill{
+    background-color: antiquewhite;
+}
+
+main #bem-vindo div{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 2.5%;
+}
+
+main #bem-vindo span{
+    margin-left: 11%;
+    height: 100%;
+    width: 100%;
+    font-size: 300%;
+}
+
+main #bem-vindo p{
+    margin-left: 11%;
+    height: 100%;
+    font-size: 140%;
+}
+
+/* Sobre */
+main #sobre {
+    background-color: #272935;
+    height: 650px;
+    padding-top: 7.7%;
+    padding-bottom: 5.6%;
+}
+
+main #sobre #left{
+    position: static;
+    margin-top: 1%;
+    height: 73%;
+    margin-left: 12%;
+    width: 24%;
+    float: left;
+}
+
+main #sobre #right{
+    position: static;
+    margin-top: 1%;
+    margin-left: 38%;
+    height: 66.4%;
+    width: 50%;
+}
+
+/* sobre-Info */
+main #sobre #left #info{
+    text-align: center;
+    height: 2000px;
+    height: 100%;
+    width: 100%;
+}
+
+main #sobre #info #foto img{
+    margin-bottom: 16px;
+    margin-left: 14%;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+}
+
+main #sobre #info span{
+    padding-top: 10px;
+    font-size: 235%;
+    margin-left: 12%;
+    color: white;
+}
+
+main #sobre #info p{
+    margin-left: 10%;
+    font-size: 140%;
+    color: rgb(152, 152, 152);
+}
+
+main #sobre #info #unicap{
+    margin-left: 10%;
+    font-size: 140%;
+    color: #4caf50;
+}
+
+main #sobre #info #redes{
+    padding-top: 4%;
+}
+
+main #sobre #info #redes ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #sobre #info #redes li{
+    display: inline-block;
+}
+
+main #sobre #info #redes a{
+    font-size: 43px;
+    color: #4caf50;
+}
+
+main #sobre #info #redes i:hover{
+    transform: scale(1.3);
+}
+/* sobre-Info */
+
+/* sobre-Bio */
+main #sobre #biografia{
+    height: 45.7%;
+}
+
+main #sobre #biografia span{
+    font-size: 290%;
+    color: #98a6ad;
+}
+
+main #sobre #biografia p{
+    font-size: 140%;
+    color: white;
+}
+
+main #sobre #biografia a{
+    color: #4caf50;
+}
+/* sobre-Bio */
+
+/* sobre-Interesses-formacao */
+main #sobre #interesses-formacao{
+    margin-top: 12.6%;
+    height: 48%;
+}
+
+main #sobre #interesses-formacao span{
+    padding-left: 0;
+    font-size: 190%;
+    color: #98a6ad;
+
+}
+
+main #sobre #interesses-formacao li{
+    font-size: 120%;
+    color: white;
+    padding-top: 6px;
+}
+
+main #sobre #interesses-formacao #interesses{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+main #sobre #interesses-formacao #formacao{
+    margin-left: 43.5%;
+    height: 100%;
+    width: 50%;
+}
+
+
+main #sobre #interesses-formacao #formacao .instituicao{
+    font-size: 75%;
+    padding-left: 9.8%;
+    color: rgb(152, 152, 152);
+}
+
+main #sobre #interesses-formacao #formacao ul{
+    padding-left: 6%;
+    display: flex;
+}
+
+main #sobre #interesses-formacao #formacao li{
+    display: inline-block;
+}
+
+main #sobre #cv{
+    margin-top: 6.1%;
+    margin-left: 35%;
+}
+
+main #sobre #cv a{
+    font-size: 130%;
+    color: #4caf50;
+    border-radius: 8px;
+    border: 2px solid #4caf50;
+    padding: 5px 9px 5px 9px;
+}
+
+main #sobre #cv a:hover{
+    background-color: #4caf50;
+    color: white;
+}
+/* sobre-Interesses-formacao */
+
+/* Sobre */
+
+/* Contato */
+main #contato{
+    display: flex;
+    background-image: linear-gradient(DarkGreen,forestGreen);
+    height: 745px;
+    width: 100%;
+}
+
+main #contato #ctt-nome{
+    width: 30%;
+    margin-left: 6.5%;
+    margin-top: 6%;
+    height: 100px;
+    float: left;
+}
+
+main #contato #ctt-nome span{
+    display: flex;
+    margin-left: 19%;
+    font-size: 290%;
+    color: white;
+}
+
+main #contato #campos-etc{
+    width: 50%;
+    height: 550px;
+    margin-top: 6%;
+    margin-left: 1%;
+}
+
+main #contato #campos-etc input{
+    height: 40px;
+    width: 96.1%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #272935;
+    color: white;
+    padding-left: 17px;
+    font-size: 102%;
+}
+
+main #contato #campos-etc #mensagem{
+    position: static;
+    height: 170px;
+    width: 96.1%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgb(35, 37, 47);
+    color: white;
+    padding-left: 17px;
+    padding-top: 9px;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+}
+
+main #contato #campos-etc input::placeholder{
+    font-size: 120%;
+}
+
+main #contato #campos-etc textarea::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 135%;
+}
+
+main #contato #campos-etc button{
+    margin-top: 1%;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    background-color: forestGreen;
+    border: 2.2px solid #272935;
+    color: rgb(35, 37, 47);
+    border-radius: 5px;
+    margin-bottom: 6%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+main #contato #campos-etc button:hover{
+    background-color: #272935;
+    color: white;
+}
+
+main #contato #campos-etc #outros-contatos a{
+    font-size: 22px;
+    margin-left: 2%;
+    color: #272935;
+}
+
+main #contato #campos-etc #outros-contatos #localizacao{
+    font-size: 22px;
+    margin-left: 3.7%;
+    color: white;
+}
+
+main #contato #campos-etc #outros-contatos i{
+    margin-top: 1%;
+    font-size: 250%;
+    color: white;
+    margin-bottom: 1%;
+}
+/* Contato */
